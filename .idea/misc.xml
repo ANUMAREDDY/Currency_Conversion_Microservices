@@ -5,6 +5,7 @@
       <list>
         <option value="$PROJECT_DIR$/Currency_Ex_Service/pom.xml" />
         <option value="$PROJECT_DIR$/currency-conversions-exchanges/pom.xml" />
+        <option value="$PROJECT_DIR$/naming-server/pom.xml" />
       </list>
     </option>
   </component>

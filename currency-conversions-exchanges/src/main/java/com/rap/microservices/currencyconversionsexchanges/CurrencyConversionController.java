@@ -13,7 +13,7 @@ import java.util.HashMap;
 @RestController
 public class CurrencyConversionController {
     @Autowired
-    private CurrencyConversionProxy proxy;
+    private CurrencyExchangeProxy proxy;
      @GetMapping(path="/currency-conversion/from/{from}/to/{to}/quantity/{quantity}")
     public CurrencyConversion calculateCurrency(@PathVariable String from,@PathVariable String to,@PathVariable BigDecimal quantity){
          HashMap<String, String> uriVariables= new HashMap<>();
