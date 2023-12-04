@@ -7,11 +7,13 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Currency_Ex_Service" />
+        <module name="api-gateway" />
         <module name="currency-conversions-exchanges" />
         <module name="naming-server" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="api-gateway" target="17" />
       <module name="currency-conversions-exchanges" target="17" />
       <module name="Currency_Ex_Service" target="17" />
       <module name="naming-server" target="17" />
@@ -20,6 +22,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="Currency_Ex_Service" options="-parameters" />
+      <module name="api-gateway" options="-parameters" />
       <module name="currency-conversions-exchanges" options="-parameters" />
       <module name="naming-server" options="-parameters" />
     </option>
